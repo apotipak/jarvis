@@ -1,0 +1,580 @@
+{% extends "page_default.html" %}
+
+{% block title %}เบอร์ติดต่อ{% endblock %}
+
+{% block content %}
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark">เบอร์ติดต่อ</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="/">หน้าแรก</a></li>
+              <li class="breadcrumb-item active">เบอร์ติดต่อ</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-12">
+              <table id="phone_directory_list_table" class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                  <th scope="col">ชื่อ (ชื่อเล่น)</th>
+                  <th scope="col">ฝ่าย</th>
+                  <th scope="col">เบอร์ต่อ</th>                        
+                </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Chanat (ชนัต)</td>
+                    <td>MD</td>
+                    <td>781</td>                    
+                  </tr>
+                  <tr>
+                    <td>Sunny (ซันนี่)</td>
+                    <td>GM</td>
+                    <td>714</td>
+                  </tr>
+                  <tr>
+                    <td>Arunsri</td>
+                    <td>GM</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Piraphat (เอ๋)</td>
+                    <td>HR & Admin</td>
+                    <td>709</td>
+                  </tr>                  
+                  <tr>
+                    <td>Thanvarin (แก้ว)</td>
+                    <td>HR & Admin</td>
+                    <td>704</td>
+                  </tr>
+                  <tr>
+                    <td>Bongkit (เบียร์)</td>
+                    <td>HR & Admin</td>
+                    <td>703</td>
+                  </tr>                  
+                  <tr>
+                    <td>Phatcharaphorn (ต้อม)</td>
+                    <td>HR & Admin</td>
+                    <td>706</td>
+                  </tr>
+                  <tr>
+                    <td>Boontieb (เทียบ)</td>
+                    <td>HR & Admin</td>
+                    <td>707</td>
+                  </tr>                  
+                  <tr>
+                    <td>Sukanya (เต้)</td>
+                    <td>HR & Admin</td>
+                    <td>708</td>
+                  </tr>
+                  <tr>
+                    <td>Natawuth (นัท)</td>
+                    <td>HR & Admin</td>
+                    <td>710</td>
+                  </tr>                  
+                  <tr>
+                    <td>Sutharat (ปุ้ย)</td>
+                    <td>HR & Admin</td>
+                    <td>769</td>
+                  </tr>
+                  <tr>
+                    <td>Jirapat (แชมป์)</td>
+                    <td>HR & Admin</td>
+                    <td>701</td>
+                  </tr>
+                  <tr>
+                    <td>Benjamas (เบญ)</td>
+                    <td>HR & Admin</td>
+                    <td>774</td>
+                  </tr>
+                  <tr>
+                    <td>Paibun (เอ็ม)</td>
+                    <td>HR & Admin</td>
+                    <td>705</td>
+                  </tr>
+                  <tr>
+                    <td>Wirat (วิรัตน์)</td>
+                    <td>HR & Admin</td>
+                    <td>745</td>
+                  </tr>                                                                        
+                  <tr>
+                    <td>Kruawan (หนุ่ย)</td>
+                    <td>Supply Chain (จัดซื้อ จัดหา)</td>
+                    <td>723</td>
+                  </tr>
+                  <tr>
+                    <td>Chaiyapat (ไชยพัศย์)</td>
+                    <td>SP Operation</td>
+                    <td>773</td>
+                  </tr>   
+                  <tr>
+                    <td>Chutima (ชุ)</td>
+                    <td>SP Operation</td>
+                    <td>743</td>
+                  </tr>   
+                  <tr>
+                    <td>Wasana (วาด)</td>
+                    <td>SP Operation</td>
+                    <td>739</td>
+                  </tr>
+                  <tr>
+                    <td>Niramol (หน่อง)</td>
+                    <td>SP Operation</td>
+                    <td>740</td>
+                  </tr>
+                  <tr>
+                    <td>Thitirat (ปุ๊ก)</td>
+                    <td>SP Operation</td>
+                    <td>741</td>
+                  </tr>
+                  <tr>
+                    <td>Sureerat (ยุ้ย)</td>
+                    <td>SP Operation</td>
+                    <td>770</td>
+                  </tr>
+                  <tr>
+                    <td>Sarawuth</td>
+                    <td>SP Operation (โซน A)</td>
+                    <td>788</td>
+                  </tr> 
+                  <tr>
+                    <td>Kanayos</td>
+                    <td>SP Operation (โซน B)</td>
+                    <td>748</td>
+                  </tr>  
+                  <tr>
+                    <td>Khomkrit</td>
+                    <td>SP Operation (โซน C1 & C2)</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Kasem</td>
+                    <td>SP Operation (โซน D)</td>
+                    <td>788</td>
+                  </tr>  
+                  <tr>
+                    <td>Narong</td>
+                    <td>SP Operation (โซน E)</td>
+                    <td>746</td>
+                  </tr>  
+                  <tr>
+                    <td>Phirayot</td>
+                    <td>SP Operation (โซน F)</td>
+                    <td>749</td>
+                  </tr>
+                  <tr>
+                    <td>Karun (จ๊อด)</td>
+                    <td>SP Operation</td>
+                    <td>738</td>
+                  </tr>  
+                  <tr>
+                    <td>Sasikarn (เล็ก)</td>
+                    <td>Finance</td>
+                    <td>711</td>
+                  </tr> 
+                  <tr>
+                    <td>Intira (เอิร์ท)</td>
+                    <td>Finance</td>
+                    <td>715</td>
+                  </tr> 
+                  <tr>
+                    <td>Ath (อัท)</td>
+                    <td>Finance</td>
+                    <td>717</td>
+                  </tr>                  
+                  <tr>
+                    <td>Suphamas (แป้น)</td>
+                    <td>Finance</td>
+                    <td>720</td>
+                  </tr> 
+                  <tr>
+                    <td>Thirawat (บิว)</td>
+                    <td>Finance</td>
+                    <td>713</td>
+                  </tr>
+                  <tr>
+                    <td>Narumol (กุ้ง)</td>
+                    <td>Finance</td>
+                    <td>722</td>
+                  </tr>                  
+                  <tr>
+                    <td>Malai (นาง)</td>
+                    <td>Finance</td>
+                    <td>725</td>
+                  </tr>                  
+                  <tr>
+                    <td>Warawan (ผึ้ง)</td>
+                    <td>Finance</td>
+                    <td>728</td>
+                  </tr>                  
+                  <tr>
+                    <td>Orrawan (อ้อ)</td>
+                    <td>Finance</td>
+                    <td>-</td>
+                  </tr>                  
+                  <tr>
+                    <td>Korngamol (บุ๋ม)</td>
+                    <td>Finance</td>
+                    <td>763</td>
+                  </tr>                  
+                  <tr>
+                    <td>Juthamas (ผึ้ง)</td>
+                    <td>Finance</td>
+                    <td>731</td>
+                  </tr>                  
+                  <tr>
+                    <td>Tanyaluk (ตุ๊กตา)</td>
+                    <td>Aviation</td>
+                    <td>702</td>
+                  </tr>                  
+                  <tr>
+                    <td>Kanda (ตุ่น)</td>
+                    <td>Aviation</td>
+                    <td>712</td>
+                  </tr>                  
+                  <tr>
+                    <td>Soontaree (ใหม่)</td>
+                    <td>Aviation</td>
+                    <td>718</td>
+                  </tr>                  
+                  <tr>
+                    <td>Kanchana (มีมี่)</td>
+                    <td>Aviation</td>
+                    <td>765</td>
+                  </tr>
+                  <tr>
+                    <td>Nisakorn (วุ้นเส้น)</td>
+                    <td>Legal</td>
+                    <td>767</td>
+                  </tr>
+                  <tr>
+                    <td>Pinyapath (เอ๋)</td>
+                    <td>EHS</td>
+                    <td>764</td>
+                  </tr>
+                  <tr>
+                    <td>Bhumesh (เกี๊ยม)</td>
+                    <td>EHS</td>
+                    <td>766</td>
+                  </tr>
+                  <tr>
+                    <td>Patumporn (เปรี้ยว)</td>
+                    <td>EHS</td>
+                    <td>785</td>
+                  </tr>
+                  <tr>
+                    <td>Chanont</td>
+                    <td>Sales</td>
+                    <td>721</td>
+                  </tr>
+                  <tr>
+                    <td>Nuttawat (แบงค์)</td>
+                    <td>Sales</td>
+                    <td>721</td>
+                  </tr> 
+                  <tr>
+                    <td>Naris (นิค)</td>
+                    <td>Sales</td>
+                    <td>761</td>
+                  </tr>  
+                  <tr>
+                    <td>Kantaphat (ปอนด์)</td>
+                    <td>Sales</td>
+                    <td>761</td>
+                  </tr>
+                  <tr>
+                    <td>Krittaya (แอน)</td>
+                    <td>Sales</td>
+                    <td>724</td>
+                  </tr>  
+                  <tr>
+                    <td>Ratchanon (มิน)</td>
+                    <td>Sales</td>
+                    <td>726</td>
+                  </tr>  
+                  <tr>
+                    <td>Siripon (แจง)</td>
+                    <td>Sales</td>
+                    <td>772</td>
+                  </tr>
+                  <tr>
+                    <td>Kwantida (แอร์)</td>
+                    <td>Sales</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>เกตุ</td>
+                    <td>Reception ชั้น 7</td>
+                    <td>456</td>
+                  </tr>
+                  <tr>
+                    <td>ร.ป.ภ.</td>
+                    <td>Reception ชั้น G</td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td>Thanaphorn (เอ็ม)</td>
+                    <td>HR & Recruit</td>
+                    <td>113</td>
+                  </tr>
+                  <tr>
+                    <td>Jamnong (จำนงค์)</td>
+                    <td>HR & Recruit</td>
+                    <td>110</td>
+                  </tr>
+                  <tr>
+                    <td>Somsak (มั่น)</td>
+                    <td>HR & Recruit</td>
+                    <td>111</td>
+                  </tr>
+                  <tr>
+                    <td>Thapani (น้อย)</td>
+                    <td>HR & Recruit</td>
+                    <td>112</td>
+                  </tr>
+                  <tr>
+                    <td>Jittida (น้อง)</td>
+                    <td>HR & Recruit</td>
+                    <td>109</td>
+                  </tr>
+                  <tr>
+                    <td>Supachai (ต้อม)</td>
+                    <td>HR & Recruit</td>
+                    <td>135</td>
+                  </tr>
+                  <tr>
+                    <td>Waroot (เอ็ม)</td>
+                    <td>HR & Recruit</td>
+                    <td>136</td>
+                  </tr>
+                  <tr>
+                    <td>Petchalada (ผึ้ง)</td>
+                    <td>Training</td>
+                    <td>229</td>
+                  </tr>
+                  <tr>
+                    <td>Chalongchai (ฉลองชัย)</td>
+                    <td>Training</td>
+                    <td>230</td>
+                  </tr>
+                  <tr>
+                    <td>Saman (สมาน)</td>
+                    <td>Training</td>
+                    <td>228</td>
+                  </tr>
+                  <tr>
+                    <td>Charin (ชรินทร์)</td>
+                    <td>Training</td>
+                    <td>605</td>
+                  </tr>
+                  <tr>
+                    <td>Somporn (สมพร)</td>
+                    <td>Training</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Chansak (ชาญศักดิ์)</td>
+                    <td>Training</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Weerachat (วีระชาติ)</td>
+                    <td>Training</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Sangroong (รุ้ง)</td>
+                    <td>Store</td>
+                    <td>127</td>
+                  </tr>
+                  <tr>
+                    <td>Philaiwan (เจี๊ยบ)</td>
+                    <td>Control Room</td>
+                    <td>134</td>
+                  </tr>
+                  <tr>
+                    <td>Kotchaporn (ดา)</td>
+                    <td>Control Room</td>
+                    <td>103</td>
+                  </tr>
+                  <tr>
+                    <td>Wallapa (ก้อย)</td>
+                    <td>Control Room</td>
+                    <td>104</td>
+                  </tr>
+                  <tr>
+                    <td>Wittawat (วัฒน์)</td>
+                    <td>Control Room</td>
+                    <td>105</td>
+                  </tr>
+                  <tr>
+                    <td>Sakorn (สาคร)</td>
+                    <td>Control Room</td>
+                    <td>102</td>
+                  </tr>
+                  <tr>
+                    <td>Somkiat (สมเกียรติ</td>
+                    <td>IT</td>
+                    <td>654</td>
+                  </tr>
+                  <tr>
+                    <td>Arnon (จอห์น)</td>
+                    <td>IT</td>
+                    <td>655</td>
+                  </tr>
+                  <tr>
+                    <td>Amnaj (เอ)</td>
+                    <td>IT</td>
+                    <td>668</td>
+                  </tr>
+                  <tr>
+                    <td>Supanich (นิด)</td>
+                    <td>Perfekt</td>
+                    <td>601</td>
+                  </tr>
+                  <tr>
+                    <td>Nipawan (หญิง)</td>
+                    <td>Perfekt</td>
+                    <td>602</td>
+                  </tr>
+                  <tr>
+                    <td>Benchamat (กุ๊กไก่)</td>
+                    <td>Perfekt</td>
+                    <td>603</td>
+                  </tr>
+                  <tr>
+                    <td>Somrutai (ก้อย)</td>
+                    <td>Business Development</td>
+                    <td>604</td>
+                  </tr>
+                  <tr>
+                    <td>Messenger</td>
+                    <td>-</td>
+                    <td>750</td>
+                  </tr>
+                  <tr>
+                    <td>Cashier</td>
+                    <td>-</td>
+                    <td>771</td>
+                  </tr>
+                  <tr>
+                    <td>เจ้าพระยา</td>
+                    <td>Meeting Room</td>
+                    <td>768, 775</td>
+                  </tr>
+                  <tr>
+                    <td>First Aid</td>
+                    <td>-</td>
+                    <td>220</td>
+                  </tr>
+                  <tr>
+                    <td>Canteen</td>
+                    <td>-</td>
+                    <td>664</td>
+                  </tr>  
+                  <tr>
+                    <td>
+                      อุ้ม
+                    </td>
+                    <td>
+                      Guardforce Aviation Security<br>
+                      Guardforce Service Solutions
+                    </td>
+                    <td>
+                      Tel. 02-134-7788
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      กิตติมา (บี)
+                    </td>
+                    <td>
+                      Guardforce Aviation Security<br>
+                      Guardforce Service Solutions
+                    </td>
+                    <td>
+                      Tel. 02-134-2749-50
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      น้อง
+                    </td>
+                    <td>
+                      Guardforce Aviation Security<br>
+                      Guardforce Service Solutions
+                    </td>
+                    <td>
+                      Tel. 081-756-5458
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      ไก่
+                    </td>
+                    <td>
+                      Guardforce Aviation Security<br>
+                      Guardforce Service Solutions
+                    </td>
+                    <td>
+                      Tel. 086-781-844
+                    </td>
+                  </tr>
+                  <tr>                    
+                    <td>
+                      Guardforce Aviation Security<br>
+                      Guardforce Service Solutions
+                    </td>
+                    <td>-</td>
+                    <td>
+                      Tel. 02-973-6010 | Fax.02-973-5423
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Guardforce Cash Solutions</td>
+                    <td>-</td>
+                    <td>Tel. 02-973-6010 | Fax. 02-973-5423</td>
+                  </tr>                                  
+                  <tr>
+                    <td>ต่าย</td>
+                    <td>Delta</td>
+                    <td>
+                      Tel. 061-413-5078 | Tel. 086-359-3173
+                    </td>
+                  </tr>                                    
+                  <tr>
+                    <td>ร้องเรียนรถตู้</td>
+                    <td>-</td>
+                    <td>Tel. 02-973-6001</td>
+                  </tr>                  
+                </tbody>
+              </table>
+              <br>
+          </div>
+        </div>
+        <!-- /.row -->        
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+{% endblock %}
